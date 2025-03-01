@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import downloadbutton from "../assets/icons/file_download.svg";
 import "./HomePage.css"; // Import custom CSS
 
 function HomePage() {
@@ -30,7 +31,7 @@ function HomePage() {
         </div>
         <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 icon-container">
           <img
-            src={"src/assets/icons/download-solid.svg"} // Update the path to your icon
+            src={downloadbutton} // Update the path to your icon
             alt="Download"
             className="download-icon"
           />
