@@ -7,7 +7,7 @@ function Services() {
       {/* Header Section */}
       <div className="row Services-header">
         <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3">
-          <span className="Services-number">04</span>
+          <span className="Services-number">03</span>
         </div>
         <div className="col-sm-12 col-md-6 col-lg-9 col-xl-9">
           <span className="Services-title">Services</span>

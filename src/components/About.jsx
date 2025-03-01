@@ -8,7 +8,7 @@ function About() {
       {/* Header Section */}
       <div className="row about-header">
         <div className="col-sm-12 col-md-6 col-lg-3 col-xl-3">
-          <span className="about-number">03</span>
+          <span className="about-number">02</span>
         </div>
         <div className="col-sm-12 col-md-6 col-lg-9 col-xl-9">
           <span className="about-title">About</span>
