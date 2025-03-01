@@ -1,6 +1,13 @@
+@font-face {
+  font-family: "Ashik";
+  src: url("./assets/fonts/Felgine-Italic.otf") format("truetype");
+}
+
 body{
   background-color: #DFE4DF;
-  
+  padding: 0px;
+  margin: 0px;
+  font-family: "Ashik";
 }
 
 html {
