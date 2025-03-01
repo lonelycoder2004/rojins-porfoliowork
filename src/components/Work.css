@@ -1,0 +1,88 @@
+/* General styles for the Work component */
+.work-container {
+    padding: 0.25rem;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+/* Header section */
+.work-header {
+    display: flex;
+    /* Use flexbox for alignment */
+    align-items: center;
+    /* Vertically center the items */
+    justify-content: space-between;
+    /* Space out the items */
+    margin-bottom: 20px;
+}
+
+.work-number {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #2C178D;
+    /* Custom color */
+    margin-right: 10px;
+    /* Add spacing between number and title */
+}
+
+.work-title {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #2C178D;
+    /* Dark gray */
+    text-align: left;
+    /* Align to the right */
+    margin: 0;
+    /* Remove default margin */
+}
+
+/* Divider */
+.work-divider {
+    border-top: 3px solid #2C178D;
+    /* Custom color */
+    margin: 20px auto;
+    width: 100%;
+}
+
+/* Projects grid */
+.work-projects {
+    margin-top: 30px;
+}
+
+/* Project card styles */
+.project-card {
+    border: none;
+    /* Remove default card border */
+    margin-bottom: 20px;
+    /* Space between cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Add a subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    /* Lift card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* Enhance shadow on hover */
+}
+
+.project-image {
+    border-radius: 8px 8px 0 0;
+    /* Rounded corners at the top */
+}
+
+.project-body {
+    padding: 20px;
+    /* Add padding inside the card */
+}
+
+.project-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2C178D;
+    /* Custom color */
+    text-align: center;
+    /* Center the title */
+}

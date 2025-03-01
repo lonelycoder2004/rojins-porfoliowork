@@ -1,0 +1,8 @@
+body{
+  background-color: #DFE4DF;
+  
+}
+
+html {
+  scroll-padding-top: 70px; /* Adjust this value based on your navbar height */
+}

@@ -1,0 +1,62 @@
+/* Footer container */
+.footer-container {
+  padding: 0.5rem;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* Footer divider */
+.footer-divider {
+  border-top: 3px solid #2C178D;
+  margin: 20px auto;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+/* Footer brand section */
+.footer-brand {
+  text-align: left;
+}
+
+/* Footer links section */
+.footer-links,
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Footer links */
+.footer-link {
+  color: #2C178D;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #160758;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .footer-brand,
+  .footer-links,
+  .footer-social {
+    text-align: center;
+  }
+}
+
+/* Apply this rule only within the footer */
+.footer-container .col-xl-4 {
+  flex: 0 0 auto;
+  width: 25.333333%;
+}

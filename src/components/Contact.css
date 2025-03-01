@@ -1,0 +1,53 @@
+/* General styles for the Contact component */
+.Contact-container {
+    padding: 0.5rem;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  /* Header section */
+  .Contact-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .Contact-number {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #2C178D;
+    margin-right: 10px;
+  }
+  
+  .Contact-title {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #2C178D;
+    text-align: left;
+    margin: 0;
+  }
+  
+  /* Divider */
+  .Contact-divider {
+    border-top: 3px solid #2C178D;
+    margin: 20px 0; /* Keep the divider margin unchanged */
+    width: 100%;
+  }
+  
+  /* Content section */
+  .Contact-content {
+    padding-left: 25%; /* Align content with the title */
+  }
+  
+  .service-item {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #2C178D; /* Match the color scheme */
+    margin: 20px 0; /* Add spacing between items */
+  }
+  
+  .service-divider {
+    border-top: 1px solid #2C178D; /* Lighter divider for Contact */
+    margin: 10px 0; /* Add spacing between items and dividers */
+  }
