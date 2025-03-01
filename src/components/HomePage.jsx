@@ -30,11 +30,7 @@ function HomePage() {
           </p>
         </div>
         <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 icon-container">
-          <img
-            src={downloadbutton} // Update the path to your icon
-            alt="Download"
-            className="download-icon"
-          />
+          <img width="26" height="26" src="https://img.icons8.com/metro/26/download.png" alt="download" className="download-icon"/>
         </div>
       </div>
     </div>
